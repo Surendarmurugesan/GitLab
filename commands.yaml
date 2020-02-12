@@ -4,7 +4,7 @@ sudo dpkg -i gitlab-runner_amd64.deb
 sudo apt update
 sudo gitlab-runner --version
 sudo gitlab-runner stop
-sudo gitlab-runner register
+sudo gitlab-runner register #####(add gitlab url, add project token,tags name=---,executor)
 sudo gitlab-runner start
 
 
